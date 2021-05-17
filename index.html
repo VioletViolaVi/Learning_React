@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Instant Marketing Job Task</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="content" role="main">
+                <!-- this is the start of content for our page -->
+                <h1 class="title"> Hi there!</h1>
+
+                <p class="challenge-info">
+                    I've been trying to do maths but it's hard... can you tell me what I get if I divide
+                    <b id="firstNumber">733</b>
+                    by
+                    <b id="secondNumber">446</b>?
+                </p>
+
+                <div class="challenge-form">
+                    <form class="challenge-search" method="post">
+                        <label for="response">
+                            What's the answer?
+                            <br>
+                            <input id="responseToken" name="responseToken" type="hidden"
+                                value="eyJmaXJzdE51bWJlciI6NzMzLCJzZWNvbmROdW1iZXIiOjQ0Niwic3RhcnRUaW1lIjoxNjIxMjcxODAxMjg4fQ&#x3D;&#x3D;">
+                            <input id="response" name="response" required="required" type="text">
+                        </label>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="illo-container">
+                    <img src="https://cdn.glitch.com/5c13b9ba-a7eb-440d-8df3-02636350a71c%2Fsymbol_512-1603991106.png?v=1620999898297"
+                        class="illustration" alt="Instant Logo" />
+                </div>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
