@@ -8,7 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // input answer field
     let response = document.getElementById("response");
     response.value = answer;
-    // submit button
-    let btn = document.getElementsByTagName('button')[0];
+    // error message
+    let errorMessage = document.getElementsByClassName('challenge-error')[0];
+    // submit btn
+    let btn = document.getElementsByTagName("button")[0];
+    
+    btn.addEventListener("click", function () {
+        if (response.value === answer) {
+            errorMessage.style.display = "block";
+        }
+    })
 
 });
