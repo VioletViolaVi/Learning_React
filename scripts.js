@@ -10,11 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
     inputAnswer();
 
     function submitAnswer() {
-        if (answer !== 1.6434977578475336) {
+        if (answer !== firstNumber / secondNumber) {
             let challengeError = document.getElementsByClassName("challenge-error")[0];
             challengeError.style.display = "block";
         }
     }
     submitAnswer();
-
 });
