@@ -168,7 +168,7 @@ p {
 }
 
 .challenge-error {
-    /* display: none; */
+    display: none;
     margin-left: 5px;
     color: #b13030;
 }
