@@ -1,10 +1,11 @@
 import React from "react"
+import Hobbies from "./hobbies"
 
 const paraStyles = {
-    color: "pink",
-    fontWeight: "900",
-    backgroundColor: "red"
-  }
+    color: "gold",
+    fontWeight: "700",
+    backgroundColor: "black"
+}
 
 function MyInfo() {
     return (
@@ -17,6 +18,7 @@ function MyInfo() {
                 <li style={{ color: 'orange' }}>Mexico</li>
                 <li style={{ color: 'orange' }}>Taiwan</li>
             </ul>
+            <Hobbies />
         </div>
     )
 }

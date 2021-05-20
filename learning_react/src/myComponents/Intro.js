@@ -1,9 +1,9 @@
 import React from "react"
 
 const paraStyles = {
-    color: "pink",
-    fontWeight: "900",
-    backgroundColor: "red"
+    color: "gold",
+    fontWeight: "700",
+    backgroundColor: "black"
 }
 
 function Intro() {
