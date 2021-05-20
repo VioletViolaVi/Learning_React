@@ -3,12 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyInfo from "./myComponents/MyInfo"
+
+const paraStyles = {
+  color: "pink",
+  fontWeight: "900",
+  backgroundColor: "red"
+}
 
 function Intro() {
   return (
     <div>
       <h1>This is a heading.</h1>
-      <p>This is a paragraph.</p>
+      <p style={paraStyles}>This is a paragraph.</p>
     </div>
   )
 }
@@ -30,21 +37,6 @@ function Numbers() {
       <li>two</li>
       <li>three</li>
     </ol>
-  )
-}
-
-function MyInfo() {
-  return (
-    <div>
-      <h1>My name is Vivian</h1>
-      <p>I'm 27 and I'm learning how to code using React.</p>
-      <p>My top 3 vacation spots are the following:</p>
-      <ul>
-        <li style={{ color: 'orange' }}>Singapore</li>
-        <li style={{ color: 'orange' }}>Mexico</li>
-        <li style={{ color: 'orange' }}>Taiwan</li>
-      </ul>
-    </div>
   )
 }
 
