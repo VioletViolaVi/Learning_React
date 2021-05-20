@@ -3,42 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyInfo from "./myComponents/MyInfo"
-
-const paraStyles = {
-  color: "pink",
-  fontWeight: "900",
-  backgroundColor: "red"
-}
-
-function Intro() {
-  return (
-    <div>
-      <h1>This is a heading.</h1>
-      <p style={paraStyles}>This is a paragraph.</p>
-    </div>
-  )
-}
-
-function Colours() {
-  return (
-    <ul>
-      <li>red</li>
-      <li>yellow</li>
-      <li>blue</li>
-    </ul>
-  )
-}
-
-function Numbers() {
-  return (
-    <ol>
-      <li>one</li>
-      <li>two</li>
-      <li>three</li>
-    </ol>
-  )
-}
+import Intro from "./myComponents/Intro";
+import Colours from "./myComponents/Colours";
+import Numbers from "./myComponents/Numbers";
+import MyInfo from "./myComponents/MyInfo";
 
 ReactDOM.render(
   /*
