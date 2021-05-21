@@ -4,10 +4,10 @@ import Title from "./Title";
 
 function Main() {
     return (
-        <main className="main_container">
+        <section className="main_container">
             <Title />
             <HeroImage />
-        </main>
+        </section>
     )
 }
 

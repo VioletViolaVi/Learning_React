@@ -5,7 +5,7 @@ import PhoneNumber from "./PhoneNumber";
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer_area">
             <Email />
             <PhoneNumber />
             <Address />
