@@ -1,8 +1,11 @@
 import React from "react";
 
+let sloganMain = "Life is better with "
+let sloganTitle = "spaces".toUpperCase();
+
 function Slogan() {
     return (
-        <p>Life is better with <span className="span_slogan">SPACES</span></p>
+        <p>{sloganMain}<span className="span_slogan">{sloganTitle}</span></p>
     )
 }
 
