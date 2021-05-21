@@ -1,11 +1,11 @@
 import React from "react";
 
-function MainContent() {
+function Main() {
     return (
         <main>
-
+            <h1>SPACES</h1>
         </main>
     )
 }
 
-export default MainContent;
+export default Main;
