@@ -1,9 +1,14 @@
 import React from "react";
+import HeroImage from "./HeroImage";
+import Slogan from "./Slogan";
+import Title from "./Title";
 
 function Main() {
     return (
         <main>
-            <h1>SPACES</h1>
+            <Title />
+            <HeroImage />
+            <Slogan />
         </main>
     )
 }
