@@ -1,25 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Intro from "./myComponents/Intro";
-import Colours from "./myComponents/Colours";
-import Numbers from "./myComponents/Numbers";
-import MyInfo from "./myComponents/MyInfo";
 
 ReactDOM.render(
-  /*
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  */
-  <div>
-    <Intro />
-    <Colours />
-    <Numbers />
-    <MyInfo />
-  </div>,
 
   document.getElementById('root')
 );
