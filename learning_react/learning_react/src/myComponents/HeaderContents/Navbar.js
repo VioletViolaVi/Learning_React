@@ -1,7 +1,6 @@
 import React from "react";
 
-const divider = " | "
-const navLinksArray = ["Home", "About", "Contact"];
+const divider = " | ";
 
 function Navbar() {
     return (
