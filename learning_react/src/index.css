@@ -1,13 +1,34 @@
-body {
+/* universal */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color: gold;
+  font-family: 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  cursor: default;
+  background-color: rgb(139, 131, 131);
+}
+
+/* heading */
+
+.mobile_header {
+  padding: 2.5rem 0rem;
+  background-color: white;
+}
+
+.mobile_header li {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.mobile_header a:hover {
+  text-decoration: underline;
+  color: rgb(139, 131, 131);
 }
