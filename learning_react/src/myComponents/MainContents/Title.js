@@ -1,8 +1,13 @@
 import React from "react";
+import Slogan from "./Slogan";
 
 function Title() {
     return (
-        <h1>SPACES</h1>
+        <section className="hero_img_text">
+            <h1>SPACES</h1>
+            <Slogan />
+        </section>
+
     )
 }
 

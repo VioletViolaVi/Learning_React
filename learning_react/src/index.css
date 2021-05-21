@@ -1,4 +1,4 @@
-/* universal */
+/************************************************************** universal */
 
 * {
   margin: 0;
@@ -7,7 +7,6 @@
   list-style: none;
   text-decoration: none;
   text-align: center;
-  color: gold;
   font-family: 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -16,7 +15,7 @@ body {
   background-color: rgb(139, 131, 131);
 }
 
-/* heading */
+/************************************************************** heading */
 
 .mobile_header {
   padding: 2.5rem 0rem;
@@ -28,7 +27,44 @@ body {
   font-size: 1.5rem;
 }
 
+.mobile_header a {
+  color: black;
+}
+
 .mobile_header a:hover {
   text-decoration: underline;
   color: rgb(139, 131, 131);
+}
+
+/************************************************************** main */
+
+.main_container {
+  position: relative;
+  text-align: center;
+}
+
+.hero_img {
+  width: 100%;
+  height: 17rem;
+}
+
+.hero_img_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white;
+}
+
+.hero_img_text h1 {
+  font-size: 3rem;
+}
+
+.hero_img_text p {
+  font-size: 1.3rem;
+}
+
+.span_slogan {
+  font-weight: 700;
 }

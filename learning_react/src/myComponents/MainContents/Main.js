@@ -1,14 +1,12 @@
 import React from "react";
 import HeroImage from "./HeroImage";
-import Slogan from "./Slogan";
 import Title from "./Title";
 
 function Main() {
     return (
-        <main>
+        <main className="main_container">
             <Title />
             <HeroImage />
-            <Slogan />
         </main>
     )
 }
