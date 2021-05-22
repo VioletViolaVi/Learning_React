@@ -28,7 +28,12 @@ function Main() {
                     question4: "Doctor! Doctor! I feel like a pair of curtains!",
                     answer4: "Then calm down and pull yourself together!",
                     question5: "What's a chair favourite type of tv show?",
-                    answer5: "A sit-com!"
+                    answer5: "A sit-com!",
+                    punchLine1: "Heard about someone addicted to eating sofas. He’s got a suite tooth.",
+                    punchLine2: "Someone stole the duvet from off my bed. Thankfully it was recovered.",
+                    punchLine3: "When I heard my sofa had been stolen, I thought “I’m not going to take this sitting down”.",
+                    punchLine4: "Thought I won an argument with my wife about how to rearrange our furniture..... But when I got home, the tables were turned",
+                    punchLine5: "I quit my job at the furniture shop. It just didn't sit right with me."
                 }}
             />
         </section>

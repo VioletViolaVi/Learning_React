@@ -38,7 +38,6 @@ body {
 
 .main_container {
   text-align: center;
-  height: 150vh;
 }
 
 .main_container img {
@@ -67,13 +66,33 @@ body {
   font-weight: 700;
 }
 
+/************************************************************** jokes */
+
+.joke_question {
+  color: lightgreen;
+  font-weight: 600;
+  background-color: darkblue;
+}
+
+.joke_answer {
+  color: darkblue;
+  font-weight: 500;
+  background-color: lightgreen;
+}
+
+.punchline {
+  font-style: italic;
+  color: plum;
+  font-size: 1.5rem;
+  background-color: purple;
+}
+
 /************************************************************** footer */
 
 .footer_area {
   padding: 0.5rem 0rem;
-  bottom: 0rem;
   background-color: yellow;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .footer_area h4:hover {
