@@ -38,13 +38,12 @@ body {
 
 .main_container {
   text-align: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .main_container img {
   width: 100%;
   height: 26rem;
-  ;
 }
 
 .hero_img_text {
@@ -74,6 +73,7 @@ body {
   padding: 0.5rem 0rem;
   bottom: 0rem;
   background-color: yellow;
+  margin-top: 10rem;
 }
 
 .footer_area h4:hover {
