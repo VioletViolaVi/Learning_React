@@ -10,10 +10,10 @@ const aboutStyling = {
     color: "yellow",
     backgroundColor: "black"
 }
-let about_link = document.getElementsByClassName("about_link")[0].innerHTML;
-if (about_link === "About") {
-    aboutStyling.fontWeight = "900"    
-}
+// let about_link = document.getElementsByClassName("about_link")[0].innerHTML;
+// if (about_link === "About") {
+//     aboutStyling.fontWeight = "900"    
+// }
 
 function Navbar() {
     return (

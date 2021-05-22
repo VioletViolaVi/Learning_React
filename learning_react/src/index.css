@@ -37,8 +37,8 @@ body {
 /************************************************************** main */
 
 .main_container {
-  position: relative;
   text-align: center;
+  height: 100vh;
 }
 
 .main_container img {
@@ -71,9 +71,9 @@ body {
 /************************************************************** footer */
 
 .footer_area {
-  padding: 2rem 0rem;
-  position: fixed;
+  padding: 0.5rem 0rem;
   bottom: 0rem;
+  background-color: yellow;
 }
 
 .footer_area h4:hover {
